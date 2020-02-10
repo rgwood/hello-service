@@ -1,0 +1,9 @@
+[Unit]
+Description=Hello World implementation #991293912939
+
+[Service]
+Type=notify
+ExecStart=/home/reilly/source/hello-service/bin/Debug/netcoreapp3.0/hello-service
+
+[Install]
+WantedBy=multi-user.target
